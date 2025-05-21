@@ -28,7 +28,7 @@ can be edited at any time to modify uploaded document in the s3 bucket.
 
 
 
-Step by step procedure in invoking a lambda function on the AWS console 
+                                                         Step by step procedure in invoking a lambda function on the AWS console 
 
 The configuration of the lambda function which included the name and the 
 runtime was specified as shown below. 
