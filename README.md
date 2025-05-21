@@ -25,10 +25,7 @@ be able to access an s3 bucket. After the lab, I was able to deduce that lambda 
 provide the compute platform needed to run a business application. The lambda function 
 can be edited at any time to modify uploaded document in the s3 bucket.
 
-
-
-
-                                                         Step by step procedure in invoking a lambda function on the AWS console 
+Step by step procedure in invoking a lambda function on the AWS console 
 
 The configuration of the lambda function which included the name and the runtime was specified as shown below. 
 ![image alt](https://github.com/Gertrudechichi/AWS-lambda/blob/0d8f9f0ea280b19b67363d6f4cc782e5708eeee1/Screenshot%202025-05-21%20094504.png)
