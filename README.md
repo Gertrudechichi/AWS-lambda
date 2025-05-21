@@ -30,13 +30,10 @@ can be edited at any time to modify uploaded document in the s3 bucket.
 
                                                          Step by step procedure in invoking a lambda function on the AWS console 
 
-The configuration of the lambda function which included the name and the 
-runtime was specified as shown below. 
-
+The configuration of the lambda function which included the name and the runtime was specified as shown below. 
 ![image alt](https://github.com/Gertrudechichi/AWS-lambda/blob/0d8f9f0ea280b19b67363d6f4cc782e5708eeee1/Screenshot%202025-05-21%20094504.png)
 
-The lambda function was also given an execution role with permission to read 
-from S3 bucket.
+The lambda function was also given an execution role with permission to read from S3 bucket.
 ![image alt](https://github.com/Gertrudechichi/AWS-lambda/blob/0d8f9f0ea280b19b67363d6f4cc782e5708eeee1/Screenshot%202025-05-21%20094532.png)
 
 The lambda function was successfully created 
@@ -45,8 +42,7 @@ The lambda function was successfully created
 An s3 bucket was created.  
 ![image alt](https://github.com/Gertrudechichi/AWS-lambda/blob/0d8f9f0ea280b19b67363d6f4cc782e5708eeee1/Screenshot%202025-05-21%20094606.png)
 
-The lambda function was updated to modify the file which will be uploaded in 
-the s3 bucket 
+The lambda function was updated to modify the file which will be uploaded in the s3 bucket 
 ![image alt](https://github.com/Gertrudechichi/AWS-lambda/blob/0d8f9f0ea280b19b67363d6f4cc782e5708eeee1/Screenshot%202025-05-21%20094624.png)
 
 A trigger for the lambda function was also added. 
@@ -54,16 +50,12 @@ A trigger for the lambda function was also added.
 
 ![image alt](https://github.com/Gertrudechichi/AWS-lambda/blob/0d8f9f0ea280b19b67363d6f4cc782e5708eeee1/Screenshot%202025-05-21%20094639.png)
 
-This was the state of the cloudwatch metrics before a file was uploaded in the 
-S3 bucket. The lambda function was not invoked because it was not triggered 
+This was the state of the cloudwatch metrics before a file was uploaded in the S3 bucket. The lambda function was not invoked because it was not triggered 
 by any event.
 ![image alt](https://github.com/Gertrudechichi/AWS-lambda/blob/0d8f9f0ea280b19b67363d6f4cc782e5708eeee1/Screenshot%202025-05-21%20094820.png)
 
 Two files were successfully uploaded in the S3 bucket . 
-
 ![image alt](https://github.com/Gertrudechichi/AWS-lambda/blob/0d8f9f0ea280b19b67363d6f4cc782e5708eeee1/Screenshot%202025-05-21%20094838.png)
 
-The status of the cloudwatch changed indicating that the lambda function was 
-invoked when two files were uploaded in the S3 bucket. 
-
+The status of the cloudwatch changed indicating that the lambda function was invoked when two files were uploaded in the S3 bucket. 
 ![image alt](https://github.com/Gertrudechichi/AWS-lambda/blob/0d8f9f0ea280b19b67363d6f4cc782e5708eeee1/Screenshot%202025-05-21%20094900.png)
